@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: ecommerce
+    description: "Raw ecommerce data from DuckDB"
+    tables:
+      - name: customers
+        description: "Customer data table"
+      - name: cpc
+        description: "Customer data table"
